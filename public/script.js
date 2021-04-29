@@ -1,6 +1,6 @@
 const socket= io();
 
-const video_grid=document.getElementById('video_grid');
+const video_grid=document.getElementById('video-grid');
 const myvideo=document.createElement('video');
 const mypeer=new Peer()
 myvideo.muted=true;
